@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Covid19"
+        android:textSize="30sp"
+        android:textColor="#FF5722"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="30sp"
+        android:textColor="#00BCD4"
+        android:id="@+id/coun"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/dt"
+        android:textSize="30sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activecases"
+        android:id="@+id/at"
+        android:textSize="30sp"
+        android:textColor="#FFC107"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="conformed cases"
+        android:id="@+id/cs"
+        android:textSize="30sp"
+        android:textColor="#F44336"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recover"
+        android:id="@+id/r"
+        android:textSize="30sp"
+        android:textColor="#9C27B0"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deathcases"
+        android:id="@+id/dc"
+        android:textSize="30sp"
+        android:textColor="#3750DA"
+        android:gravity="center"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
