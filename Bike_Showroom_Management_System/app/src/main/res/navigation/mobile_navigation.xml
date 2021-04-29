@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bike_showroom_management_system.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.bike_showroom_management_system.ui.gallery.GalleryFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.bike_showroom_management_system.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_notification"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.bike_showroom_management_system.ui.tools.ToolsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.bike_showroom_management_system.ui.tools.ToolsFragment"
+        android:label="@string/menu_Aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.bike_showroom_management_system.ui.tools.ToolsFragment"
+        android:label="@string/menu_Contactus"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.bike_showroom_management_system.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.bike_showroom_management_system.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bikescreen"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFBFB"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        />
+    <EditText
+        android:id="@+id/u_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:gravity="center"
+        android:hint="User Name"
+        android:textColorHint="#F8F6F6"
+        android:background="@drawable/shape"
+        android:textColor="#FDFBFB"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/u_mailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:gravity="center"
+        android:hint="User MailId"
+        android:textColorHint="#F8F6F6"
+        android:background="@drawable/shape"
+        android:textColor="#FDFBFB"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/u_pws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_security"
+        android:gravity="center"
+        android:hint="User password"
+        android:textColorHint="#F8F6F6"
+        android:background="@drawable/shape"
+        android:textColor="#FDFBFB"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/u_phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:gravity="center"
+        android:textColorHint="#F8F6F6"
+        android:hint="Phone number"
+        android:background="@drawable/shape"
+        android:textColor="#FDFBFB"
+        android:textSize="30dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btn1"
+        android:textSize="30dp"
+        android:textColor="#F8F3F3"
+        android:background="@drawable/shape"
+        android:layout_gravity="center"
+
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>
