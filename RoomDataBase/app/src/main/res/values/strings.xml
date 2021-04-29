@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoomDataBase</string>
+    <string-array name="departments">
+        <item>select department</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ECE</item>
+        <item>CIVIL</item>
+        <item>IT</item>
+    </string-array>
+</resources>
